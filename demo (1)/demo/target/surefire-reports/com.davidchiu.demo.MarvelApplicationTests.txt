@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.davidchiu.demo.MarvelApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.162 s <<< FAILURE! - in com.davidchiu.demo.MarvelApplicationTests
+com.davidchiu.demo.MarvelApplicationTests  Time elapsed: 0.161 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.davidchiu.DemoApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\David\Downloads\demo (1)\demo\target\classes\com\davidchiu\DemoApplication.class], Generic bean: class [com.davidchiu.MarvelApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\Users\David\Downloads\demo (1)\demo\target\classes\com\davidchiu\MarvelApplication.class]]
+
